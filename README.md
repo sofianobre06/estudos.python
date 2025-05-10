@@ -1,4 +1,4 @@
-# estudos.python
+# nota com media ponderada
 nome = input ("Digite o nome do aluno:")
 nota1 = float (input("Digite a nota da primeira prova do aluno:"))
 peso1= int (input("Digite o peso da primeira prova:"))
@@ -17,3 +17,5 @@ if media >= 5:
     print (f"A nota do aluno {nome} é {media:.2f} e ele foi aprovado!")
 else: 
     print(f"A nota do aluno {nome} é {media:.2f}, e ele foi reprovado")
+
+
