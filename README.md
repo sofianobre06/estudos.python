@@ -19,3 +19,25 @@ else:
     print(f"A nota do aluno {nome} é {media:.2f}, e ele foi reprovado")
 
 
+# valor q o vendedor receb de porcentagem
+nome = input("Digite o nome do vendedor(a):")
+vendas = float(input("Digite o valor total das vendas desse vendedor:"))
+porcentagem = int (input("Digite a porcentagem que o vendedor ganha de comissao em \nem cima das vendas:"))
+comissao = (vendas * (porcentagem/100))
+print(f"O vendedor(a) {nome} vai receber {comissao:.2f} de comissao")
+
+# senha usando while 
+senha = input ("Digite a senha:")
+
+while senha != "band0628":
+    print("senha incorreta tente novamente")
+    senha = input ("Digite a senha:")
+print ("Acesso permitido")
+
+# while
+contador = int (10) 
+while contador >= 1:
+    print (f"{contador}")
+    contador -= 1
+    
+print ("Feliz ano novo")
